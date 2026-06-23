@@ -10,31 +10,26 @@ body{
     width: 100%;
 }
 #box{
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(58, 57, 57);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cursor{
+    height: 20px;
+    width: 20px;
     background-color: brown;
+    border-radius: 50%;
+    position: fixed;
+   
 }
-.page1{
-    height: 100vh;
-    width: 100vw;
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.page2{
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(33, 110, 85);
-     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.page3{
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(9, 53, 38);
-     display: flex;
-    justify-content: center;
-    align-items: center;
+#img{
+    height: 30vw;
+    width: 60vw;
+    background-color: rgb(207, 153, 153);
+    background-image: url("https://images.unsplash.com/photo-1538592487700-be96de73306f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
 }
