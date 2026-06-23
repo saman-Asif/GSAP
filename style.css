@@ -8,28 +8,51 @@ html,
 body{
     height: 100%;
     width: 100%;
+      overflow-x: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 }
-#box{
+/* #box{
+    color: white;
     height: 100%;
     width: 100%;
     background-color: rgb(58, 57, 57);
-     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#cursor{
-    height: 20px;
-    width: 20px;
-    background-color: brown;
-    border-radius: 50%;
-    position: fixed;
-   
-}
-#img{
-    height: 30vw;
-    width: 60vw;
-    background-color: rgb(207, 153, 153);
-    background-image: url("https://images.unsplash.com/photo-1538592487700-be96de73306f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+     background-image: url("https://images.unsplash.com/photo-1538592487700-be96de73306f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center;
+  
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+    cursor: pointer;
+} */
+/* #full{
+    color: black;
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.411);
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 100px 80px;
+}
+#full h3{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    cursor: pointer;
+} */
+
+h1{
+font-weight: bolder;
+font-size: 70px;
+overflow: hidden;
+}
+h1 span{
+    display: inline-block;
 }
